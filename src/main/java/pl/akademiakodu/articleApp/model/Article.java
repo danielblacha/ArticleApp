@@ -14,6 +14,10 @@ public class Article {
 
     private String category;
 
+    public int getArticleId() {
+        return articleId;
+    }
+
     public String getTitle() {
         return title;
     }
