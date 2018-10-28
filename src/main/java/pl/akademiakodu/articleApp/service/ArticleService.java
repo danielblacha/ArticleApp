@@ -1,11 +1,13 @@
 package pl.akademiakodu.articleApp.service;
 
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
 import pl.akademiakodu.articleApp.dao.IArticleDAO;
 import pl.akademiakodu.articleApp.model.Article;
 
 import java.util.List;
 
+@Service
 public class ArticleService implements IArticleService {
 
     @Autowired
