@@ -36,7 +36,7 @@ public class ArticleDAO implements IArticleDAO {
         Article artc1 = getArticleById(article.getArticleId());
         artc1.setTitle(article.getTitle());
         artc1.setCategory(article.getCategory());
-
+        entityManager.persist(artc1);
     }
 
     @Override
